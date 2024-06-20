@@ -67,6 +67,7 @@ def math_combinations(n, k):
     
 def math_stringequation(expression):
     expression = expression.replace('x', '*')
+    expression = expression.replace('÷', '/')
     try:
         result = eval(expression)
         return result
