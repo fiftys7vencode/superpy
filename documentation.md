@@ -129,5 +129,5 @@ Performs tetration of `num1` to the power of `num2` multiplied by 2.
 - `conversion_millimeterstokilometers(millimeters)`: Converts millimeters to kilometers.
 
 ### Misc
-- `documentation()`: Shows you the link for the documentation of Superpy.
+- `documentation()`: Prints you the link for the documentation of Superpy. This function doesn't return anything, it instead prints.
 ---
