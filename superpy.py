@@ -178,3 +178,5 @@ def conversion_kilometerstomillimeters(kilometers):
     return kilometers * 1000000
 def conversion_millimeterstokilometers(millimeters):
     return millimeters / 1000000
+def documentation():
+    print("Documentation: https://github.com/fiftys7vencode/superpy/blob/main/documentation.md")
