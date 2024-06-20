@@ -20,7 +20,7 @@ Returns a lower-precision approximation of π (pi).
 - **Returns:**
   - `float`: Lower-precision approximation of π.
 
-### `ma_E()`
+### `math_E()`
 
 Returns the value of mathematical constant e (Euler's number).
 
@@ -44,6 +44,10 @@ Performs tetration of `num1` to the power of `num2` multiplied by 2.
 
 - **Returns:**
   - `float`: Result of tetration operation.
+
+### `math_stringequation(expression)`
+
+Returns the evaluated result of a mathematical expression provided as a string.
 
 ## Basic Mathematical Operations
 
