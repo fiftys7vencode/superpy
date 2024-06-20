@@ -128,4 +128,6 @@ Performs tetration of `num1` to the power of `num2` multiplied by 2.
 - `conversion_kilometerstomillimeters(kilometers)`: Converts kilometers to millimeters.
 - `conversion_millimeterstokilometers(millimeters)`: Converts millimeters to kilometers.
 
+### Misc
+- `documentation()`: Shows you the link for the documentation of Superpy.
 ---
