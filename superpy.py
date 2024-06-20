@@ -64,6 +64,16 @@ def math_combinations(n, k):
         return ma.comb(n, k)
     else:
         return 'Error: Invalid values for combinations'
+    
+def math_stringequation(expression):
+    expression = expression.replace('x', '*')
+    try:
+        result = eval(expression)
+        return result
+    except Exception as e:
+        print(f"Error evaluating expression '{expression}': {e}")
+        return None
+
 
 def string_reversestring(string):
      return string[::-1]
